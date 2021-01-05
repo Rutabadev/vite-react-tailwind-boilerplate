@@ -6,11 +6,11 @@ import { Header } from './Header';
 function App() {
    return (
       <div className="App h-screen flex flex-col">
-         <Header></Header>
+         <Header/>
          <main className="flex-grow">
             <h2>Hello I am main my boy</h2>
          </main>
-         <Footer></Footer>
+         <Footer/>
       </div>
    );
 }
