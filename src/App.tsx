@@ -7,8 +7,8 @@ function App() {
    return (
       <div className="App h-screen flex flex-col">
          <Header/>
-         <main className="flex-grow">
-            <h2>Hello I am main my boy</h2>
+         <main className="p-6 flex-grow">
+            <h2>Hello I am main</h2>
          </main>
          <Footer/>
       </div>
