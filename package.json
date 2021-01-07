@@ -1,6 +1,6 @@
 {
    "name": "vite-tailwind-boilerplate",
-   "version": "0.0.0",
+   "version": "0.1.0",
    "scripts": {
       "dev": "vite",
       "build": "tsc && cross-env NODE_ENV=production vite build"
