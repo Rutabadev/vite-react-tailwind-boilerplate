@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 import { Footer } from './Footer';
 import { Header } from './Header';
-import { AutoGrid } from './utils/AutoGrid';
+import { AutoGrid } from './utils';
 
-function App() {
+export default function App() {
    const [isDarkMode, setIsDarkMode] = useState(
       localStorage.theme === 'dark' ||
          (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
@@ -75,5 +75,3 @@ function App() {
       </div>
    );
 }
-
-export default App;
